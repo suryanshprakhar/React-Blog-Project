@@ -1,0 +1,33 @@
+.TopPost-Container{
+    display: inline-flex;
+    flex-flow: row wrap;
+    max-width: 20vw;
+    /* position: relative;
+    right: 20px; */
+}
+
+.TopPost-SubContainer{
+    display: flex;
+    flex-direction: row;
+    min-width: 20vw;
+}
+.TopPost-SubContainer img{
+    width: 10vw;
+    height: 130px;
+}
+.TopPost-Text{
+    padding-left: 10px;
+}
+
+
+@media (max-width:554px){
+  .TopPost-Container {
+    max-width: 88vw;
+  }
+  .TopPost-SubContainer img {
+    width: 33vw;
+  }
+  .TopPost-Text {
+    width: 54vw;
+  }
+  }

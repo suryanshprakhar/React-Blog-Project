@@ -1,0 +1,56 @@
+.IDmain-container{
+    display: flex;
+    width: 75vw;
+}
+.IDleft-part{
+    width: 25vw;
+}
+.IDright-part{
+    /* border: 2px solid black; */
+    width: 50vw;
+}
+.IDtopBar{
+    float: left;
+}
+.IDtopBar-img{
+    width: 70px;
+}
+.IDtopBar h5{
+    display: inline-block;
+}
+.IDmain-img{
+    max-width: 50vw;
+}
+.IDtag{
+    float: left;
+    padding: 5px;
+    background-color: gainsboro;
+    margin-left: 10px;
+}
+.ID-container-Clap{
+    float: left;
+    margin-left: 10px;
+}
+.ID-container-Clap img{
+    width: 30px;
+}
+.IDleft-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ID-clap{
+    padding-right: 6vw;
+    padding-bottom: 20px;
+}
+.IDleft-part div img{
+    width: 30px;
+}
+.load-more{
+    width: 137px;
+    padding: 16px;
+    cursor: pointer;
+    margin-left: 13vw;
+    margin-top: 12px;
+}
